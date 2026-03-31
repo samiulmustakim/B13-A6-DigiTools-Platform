@@ -34,7 +34,7 @@ const Cart = ({ seletedCart, setSelectedCart }) => {
                         ))}
                     </div>
                     <div className="flex justify-between">
-                        <h1 className="font-bold text-2xl">Total:</h1>
+                        <h1 className="font-black text-2xl">Total:</h1>
                         <p className="font-bold text-2xl">${totalPrice}</p>
                     </div>
                     <button onClick={checkoutBtn} className="rounded-full glass-shine-always btn bg-linear-to-r from-blue-600 to-violet-600 text-white font-bold p-6 w-full">
