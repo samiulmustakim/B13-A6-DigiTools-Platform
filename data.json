@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Design Suite",
+    "description": "A comprehensive suite of design tools for professionals.",
+    "price": 199.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": ["Advanced color tools", "Multiple artboard support", "Vector editing"],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Task Manager Pro",
+    "description": "Stay organized with advanced task and project management features.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "popular",
+    "features": ["Task prioritization", "Team collaboration", "Deadline reminders"],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Cloud Storage Plus",
+    "description": "Secure and scalable cloud storage for businesses and individuals.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["1TB storage", "End-to-end encryption", "File sharing"],
+    "icon": "../src/assets/products/social-media.png"
+  },
+  {
+    "id": 4,
+    "name": "Fitness Tracker Pro",
+    "description": "Track your fitness progress with advanced health metrics.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "best seller",
+    "features": ["Heart rate monitor", "Step tracking", "Sleep analysis"],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Video Editing Studio",
+    "description": "A professional video editor for content creators and filmmakers.",
+    "price": 129.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": ["Multi-track editing", "4K video export", "Green screen support"],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "E-Commerce Builder",
+    "description": "Create your own online store with ease and customizable templates.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "popular",
+    "features": ["Drag-and-drop builder", "Payment gateway integration", "Product catalog"],
+    "icon": "../src/assets/products/social-media.png"
+  }
+]
