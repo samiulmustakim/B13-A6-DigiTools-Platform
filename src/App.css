@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+    font-family: "Manrope", sans-serif;
+}
+
+
+.glass-shine-always {
+  background: #222;
+  color: #fff;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #444;
+}
+
+.glass-shine-always::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transform: skewX(-25deg);
+  animation: shine-move 3s infinite;
+}
+
+@keyframes shine-move {
+  0% { left: -150%; }
+  100% { left: 150%; }
+}
+
+@keyframes border-flow {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+.float-always {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  animation: float-up-down 3s ease-in-out infinite;
+}
+
+@keyframes float-up-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.stickyClass{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.shake-hover:hover {
+  animation: shake 0.3s ease-in-out infinite;
+}
+
+.float-hover:hover {
+  animation: float 1.5s ease-in-out infinite;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+
+.card-3d {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+
+.card-3d:hover {
+  transform: translateY(-10px) rotateX(7deg) rotateY(7deg);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+}
