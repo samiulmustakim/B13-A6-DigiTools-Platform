@@ -17,7 +17,6 @@ const Products = ({ data, setSelectedCart, seletedCart, setSelectedId, selectedI
                     src={data.icon}
                     alt=""
                 />
-
                 <p className="text-2xl font-bold">{data.name}</p>
                 <h4 className="text-gray-500">{data.description}</h4>
                 <p className="text-gray-500"><span className="text-2xl font-bold text-black">${data.price}</span>/mo</p>

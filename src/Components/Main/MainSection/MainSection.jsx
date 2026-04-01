@@ -4,6 +4,7 @@ import Cart from "../Cart/Cart";
 
 const MainSection = ({ productData, setSelectedCart, seletedCart }) => {
     const datas = use(productData);
+    console.log(datas)
     const [clickTab, setClickTab] = useState("products");
     const[selectedId, setSelectedId] = useState(null)
 
