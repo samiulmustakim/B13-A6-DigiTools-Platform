@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "best seller",
     "features": ["Advanced color tools", "Multiple artboard support", "Vector editing"],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/FqhT2Xqk/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "new",
     "tagType": "popular",
     "features": ["Task prioritization", "Team collaboration", "Deadline reminders"],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/Y4xCQt5n/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "best seller",
     "tagType": "popular",
     "features": ["1TB storage", "End-to-end encryption", "File sharing"],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/4ZDvCqKP/social-media.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "new",
     "tagType": "best seller",
     "features": ["Heart rate monitor", "Step tracking", "Sleep analysis"],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "https://i.ibb.co.com/Txqb436D/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "popular",
     "tagType": "best seller",
     "features": ["Multi-track editing", "4K video export", "Green screen support"],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/DDL8TSmF/portfolio.png"
   },
   {
     "id": 6,
@@ -63,6 +63,6 @@
     "tag": "new",
     "tagType": "popular",
     "features": ["Drag-and-drop builder", "Payment gateway integration", "Product catalog"],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/4ZDvCqKP/social-media.png"
   }
 ]
