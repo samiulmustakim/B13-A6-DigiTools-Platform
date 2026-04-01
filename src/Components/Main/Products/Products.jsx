@@ -7,7 +7,7 @@ const Products = ({ data, setSelectedCart, seletedCart, setSelectedId, selectedI
     const buyProduct = () => {
         setSelectedId(data.id)
         setSelectedCart([...seletedCart, data])
-        toast.success('Purchase has been successfulBuy Sucesssful')
+        toast.success('Purchase has been successful')
     }
     return (
         <div>
