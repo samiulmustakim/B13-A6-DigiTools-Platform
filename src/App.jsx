@@ -7,13 +7,9 @@ import MainSection from "./Components/Main/MainSection/MainSection";
 import { ToastContainer } from "react-toastify";
 
 
+const productData = fetch('/data.json').then(res => res.json())
 
 function App() {
-    const productPromise = async () => {
-    const res = await fetch("/data.json");
-    return res.json();
-};
-    const productData = productPromise()
     const [seletedCart, setSelectedCart] = useState([]);
     return (
         <>

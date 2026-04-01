@@ -12,11 +12,13 @@ const Products = ({ data, setSelectedCart, seletedCart, setSelectedId, selectedI
     return (
         <div>
             <div className="card-body card-3d relative mx-auto shadow-xl max-w-100 md:max-w-100 bg-white  space-y-3 rounded-2xl">
-                <img
-                    className="w-12 rounded-full p-2 border border-gray-300"
+                <p className="p-2 border w-fit border-gray-300 rounded-full">
+                    <img
+                    className="w-6"
                     src={data.icon}
                     alt=""
                 />
+                </p>
                 <p className="text-2xl font-bold">{data.name}</p>
                 <h4 className="text-gray-500">{data.description}</h4>
                 <p className="text-gray-500"><span className="text-2xl font-bold text-black">${data.price}</span>/mo</p>
