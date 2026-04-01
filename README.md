@@ -1,14 +1,17 @@
-Name of your Project : B13-A6-DigiTools-Platform
+📌 Project Name
+B13-A6-DigiTools-Platform
 
-A little Description : 
 
-Technology that you use:
-1.React.js
-2.Vite
-3.Tailwind CSS
-4.DaisyUI
-5.React Toastify
-6.React icon
+📝A little Description:
+DigiTools Platform is a web app where users can explore digital tools and easily purchase them through an interactive card-based interface.
+
+⚙️ Technologies Used:
+React.js
+Vite
+Tailwind CSS
+DaisyUI
+React Toastify
+React Icons
 
 Features about my project-----------
 🛒 Add to Cart Functionality
